@@ -10,9 +10,9 @@ Core Technologies to be used:
 * Side-by-side visualizations for algorithm comparisons
 
 Milestones:
-1. Design “algorithm swapper” - Strategy pattern
-2. Design user input model
-3. First, numerical input
-4. Design the algorithms!
+* Design “algorithm swapper” - Strategy pattern
+* Design user input model
+* First, numerical input
+* Implement the algorithms!
 
 
