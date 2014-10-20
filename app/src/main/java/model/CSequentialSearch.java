@@ -1,5 +1,6 @@
 package model;
 
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -10,7 +11,7 @@ public class CSequentialSearch implements ISearchingAlgorithm {
     private static final String m_Description = "A sequential search using java List.contains";
 
     @Override
-    public boolean FindInList(Object key, List<Object> list) {
+    public boolean FindInList(Object key, List<Object> list, Comparator<Object> comparator) {
         return list.contains(key);
     }
 
