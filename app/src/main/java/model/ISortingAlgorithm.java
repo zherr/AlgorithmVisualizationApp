@@ -9,12 +9,6 @@ import java.util.List;
 public interface ISortingAlgorithm extends IAlgorithm {
 
     /**
-     * Sorts a list with implementation's strategy.
-     * @param list - The list to sort.
-     */
-    public void SortList(List<Object> list);
-
-    /**
      * Sorts a list by using the object's comparator interface.
      * @param list - The list to sort.
      * @param comparator - The comparator object to compare elements when sorting.
